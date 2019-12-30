@@ -1,15 +1,12 @@
-# DeepLearning with Python
+# Deep Learning with Python
+![deeplearning](images/deeplearn.jpeg)
 
+___
 
-## Creating an environment
-- conda create -n mytfenv python=3.7
-- conda activate mytfenv
-- conda install pip
-- pip list
-- pip install -r requirements.txt
+## Repository Overview
+This repository is about different Deep Learning algorithm approaches as
+per the industry practices.
 
+## Table of Contents
+- [TBF](#section1)<br>
 
-## DeepLearning
-
-
-## TensorFlow
