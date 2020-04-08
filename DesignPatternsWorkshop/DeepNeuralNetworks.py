@@ -67,3 +67,7 @@ x_train = (x_train / 255.0).astype(np.float32)
 model_b.fit(x_train, y_train, epochs=10, batch_size=32, validation_split=0.1, verbose=1)
 
 # We see Model b loss and accuracy have improved compared to model a
+# Model a Accuracy and Loss is:
+# # # loss: 0.1125 - acc: 0.9709 - val_loss: 0.1529 - val_acc: 0.9685
+# Model b Accuracy and Loss is:
+# loss: 0.0235 - acc: 0.9925 - val_loss: 0.0997 - val_acc: 0.9803
