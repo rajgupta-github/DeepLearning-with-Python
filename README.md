@@ -16,6 +16,7 @@ ___
 - https://naspers.udemy.com/course/tensorflow-2-practical/learn
 - https://naspers.udemy.com/course/tensorflow-2-practical-advanced/learn
 - https://www.coursera.org/specializations/deep-learning
+- https://www.udemy.com/course/tensorflow-2/learn
 
 ## Youtube Links
 - Google Cloud AI Developer Relations - AI Training
