@@ -1,3 +1,5 @@
+# https://github.com/GoogleCloudPlatform/keras-idiomatic-programmer/blob/master/books/deep-learning-design-patterns/Workshops/Novice/Deep%20Learning%20Design%20Patterns%20-%20Workshop%20-%20Chapter%20I.ipynb
+
 import tensorflow as tf
 import numpy as np
 from tensorflow.keras import Sequential, Model, Input

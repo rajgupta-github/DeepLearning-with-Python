@@ -1,0 +1,47 @@
+https://www.tensorflow.org/api_docs/python/tf/keras/datasets
+Module: tf.keras.datasets
+
+Method: load_data
+
+Modules
+boston_housing module: Boston housing price regression dataset.
+
+cifar10 module: CIFAR10 small images classification dataset.
+
+cifar100 module: CIFAR100 small images classification dataset.
+
+fashion_mnist module: Fashion-MNIST dataset.
+
+imdb module: IMDB sentiment classification dataset.
+
+mnist module: MNIST handwritten digits dataset.
+
+reuters module: Reuters topic classification dataset.
+
+Example:
+
+tf.keras.datasets.boston_housing.load_data(
+    path='boston_housing.npz', test_split=0.2, seed=113
+)
+
+tf.keras.datasets.cifar10.load_data()
+
+tf.keras.datasets.cifar100.load_data(
+    label_mode='fine'
+)
+
+tf.keras.datasets.fashion_mnist.load_data()
+
+tf.keras.datasets.imdb.load_data(
+    path='imdb.npz', num_words=None, skip_top=0, maxlen=None, seed=113,
+    start_char=1, oov_char=2, index_from=3, **kwargs
+)
+
+tf.keras.datasets.mnist.load_data(
+    path='mnist.npz'
+)
+
+tf.keras.datasets.reuters.load_data(
+    path='reuters.npz', num_words=None, skip_top=0, maxlen=None, test_split=0.2,
+    seed=113, start_char=1, oov_char=2, index_from=3, **kwargs
+)
