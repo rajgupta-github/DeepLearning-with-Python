@@ -14,9 +14,10 @@ ___
 - https://www.pico.net/kb/what-is-the-difference-between-same-and-valid-padding-in-tf-nn-max-pool-of-tensorflow
 - https://www.coursera.org/learn/convolutional-neural-networks/lecture/Ob1nR/computer-vision
 
-## NLP
+## Sequence Models
 - https://www.kaggle.com/tanulsingh077/deep-learning-for-nlp-zero-to-transformers-bert
 - https://www.coursera.org/learn/nlp-sequence-models/lecture/ehs0S/deep-rnns
+- https://machinelearningmastery.com/crash-course-deep-learning-natural-language-processing/
 
 ## Courses Referred
 - https://naspers.udemy.com/course/tensorflow-2-practical/learn

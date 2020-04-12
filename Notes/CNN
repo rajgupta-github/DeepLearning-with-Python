@@ -68,3 +68,18 @@ Hyper parameters
 two types
  - Max Pooling
  - Average Pooling
+
+Classic NN
+===========
+LeNEt-5 (Input-> Conv->Pool->Conv->Pool->FC->FC->Output)
+AlexNet
+VGG-16 (16 Layers having weights , ~138M parameters)
+ResNet (Shortcut / Skip Connection)
+
+Very, very deep neural networks are difficult to train because of
+vanishing and exploding gradient types of problems
+
+1*1 Convolution can decrease # of channels.
+Inception Module(GoogleNet) uses 1 by 1 conv
+
+
