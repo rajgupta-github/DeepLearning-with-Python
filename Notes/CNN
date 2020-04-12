@@ -1,0 +1,70 @@
+Computer Vision Problems
+==========================
+- Image Classification
+- Object Detection
+- Neural Style Transfer
+
+Why Convolutions:
+===================
+Example we have (1000, 1000, 3) input and 1000 hidden layer units.
+Then Parameters to learn are 3 Billion which is just very, very large.
+Problems:
+- Overfitting cant be prevented
+- High Computational and memory requirements to train a neural network
+
+- Sparcity of Connections
+ - Each activation in next layer depends on only a small no of activations from prev layer
+- Parameter Sharing
+ - reduces total no of parameters, thus reduces overfitting
+ - Allows feature detector to be used in multiple locations throughout whole input image
+
+Padding
+=========
+Valid - No Padding
+Same - Paddding so that Output Size and Input size are same
+
+
+Output Size formula of Convolution Layer:
+==========================================
+n * n image
+f * f  filter
+padding p
+stride s
+Floor [ (n+2p-f)/s + 1 ] * Floor [ (n+2p-f)/s + 1 ]
+
+No of paramteres in one layer:
+===============================
+10 filters
+Each filter 3*3*3
+# parameter = (3*3*3(Weights) + 1(Bias)) * 10(filters) = 280
+
+Summary of Notation
+====================
+f[l] = filter size
+p[l] = padding
+s[l] = stride
+nc[l] = # of filters
+nc[l-1] = # of channels. In case of RGB its 3 and GreyScale its 1
+Input = nh[l-1]*nw[l-1]*nc[l-1]
+Output = nh[l]*nw[l]*nc[l]
+Each Filter is of size = f[l]*f[l]*nc[l-1]
+Activation a[l] = nh[l] * nw[l] * nc[l]
+Weights = f[l] * f[l] * nc[l-1] * nc[l]
+Bias = 1*1*1*nc[l]
+A[l] = m*nh[l] * nw[l] * nc[l]
+
+Types of Layer in ConvNet
+===========================
+- Convolution (Conv)
+- Pooling (Pool)
+- Fully Connected (FC)
+
+Pooling Layer
+==============
+zero parameter to learn
+Hyper parameters
+ - filter size
+ - stride
+two types
+ - Max Pooling
+ - Average Pooling
