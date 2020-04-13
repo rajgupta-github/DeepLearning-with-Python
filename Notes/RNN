@@ -1,0 +1,52 @@
+Types of Deep Learning
+==========================
+Supervised Deep Learning
+ - ANN used for Regression and Classification
+ - CNN used for Computer Vision
+ - RNN used for Time Series Analysis
+Usupervised Deep Learning
+ - Self Organizing Maps used for Feature Detection
+ - Deep Boltzmann Machines used for Recommnder Systems
+ - Auto Encoders used for Recommnder Systems
+
+Neural Networks and Human Brain
+================================
+Whole concept behind deep learning is to try to mimic the human brain and leverage the things that evolution has already developed for us.
+
+Human Brain got 3 parts
+- Cerebrum
+    - Temporal Lobe (Long Term Memory) linked to ANN, Weights represent Long-term memory
+    - Frontal Lobe - linked RNN for short term memory
+    - Ocipital Lobe - linked to CNN
+    - Parietal Lobe - Research going on for linking NN
+- Cerebellum
+- Brainstem
+
+Types of RNN
+=============
+One to One
+One to Many - Music Generation, Sentence generation from One Image
+Many to One - Sentiment Analysis/Classification
+Many to Many - (Input and Output are not same) Machine Translation
+Many to Many - (Input and Output are same) Named Entity Recognition
+
+
+People Behind Recurrent Neural Networks
+========================================
+Sepp (Joseph) Hochreiter - vanishing gradient was first discovered in 1991
+Yoshua Bengio - vanishing gradient was again discovered in 1994
+
+
+Solutions to the Vanishing Gradient Problem
+=============================================
+In case of exploding gradient, you can:
+- stop backpropagating after a certain point, which is usually not optimal because not all of the weights get updated;
+- penalize or artificially reduce gradient;
+- put a maximum limit on a gradient.
+
+In case of vanishing gradient, you can:
+
+- initialize weights so that the potential for vanishing gradient is minimized;
+- have Echo State Networks that are designed to solve the vanishing gradient problem;
+- have Long Short-Term Memory Networks (LSTMs).
+
