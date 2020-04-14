@@ -57,3 +57,6 @@ ___
 ## Hyper-parameter Tuning
 - https://blog.tensorflow.org/2020/01/hyperparameter-tuning-with-keras-tuner.html
 - https://medium.com/python-data/hyperparameter-tuning-tensorflow-2-models-with-keras-tuner-81f36f801040
+
+## Data Augmentation
+- https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
