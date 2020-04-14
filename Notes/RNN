@@ -25,11 +25,16 @@ Human Brain got 3 parts
 Types of RNN
 =============
 One to One
-One to Many - Music Generation, Sentence generation from One Image
+One to Many - Music Generation, Image Captioning
 Many to One - Sentiment Analysis/Classification
 Many to Many - (Input and Output are not same) Machine Translation
 Many to Many - (Input and Output are same) Named Entity Recognition
 
+Applications
+- speech recognition,
+- language modeling,
+- translation,
+- image captioning
 
 People Behind Recurrent Neural Networks
 ========================================

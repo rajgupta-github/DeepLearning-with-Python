@@ -15,6 +15,7 @@ ___
 - https://www.coursera.org/learn/convolutional-neural-networks/lecture/Ob1nR/computer-vision
 
 ## Sequence Models
+- http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 - https://www.kaggle.com/tanulsingh077/deep-learning-for-nlp-zero-to-transformers-bert
 - https://www.coursera.org/learn/nlp-sequence-models/lecture/ehs0S/deep-rnns
 - https://machinelearningmastery.com/crash-course-deep-learning-natural-language-processing/
@@ -50,3 +51,9 @@ ___
 ## Github Repo Referred
 - https://github.com/GoogleCloudPlatform/keras-idiomatic-programmer/tree/master/books/deep-learning-design-patterns/Workshops/Novice
 
+## Deep Learning Blogs
+- http://colah.github.io/
+
+## Hyper-parameter Tuning
+- https://blog.tensorflow.org/2020/01/hyperparameter-tuning-with-keras-tuner.html
+- https://medium.com/python-data/hyperparameter-tuning-tensorflow-2-models-with-keras-tuner-81f36f801040
