@@ -1,0 +1,28 @@
+About Pytorch
+==============
+- Python based scientific computing package
+- Facebook Actively used
+- Support for CUDA (DL Libarary of NVIDIA)
+- Easy to use API
+- Python Support
+- Fast and feels native
+- Pytorch is a cousin of lua based torch framework
+- alternative to numpy
+
+Concepts
+==========
+- Tensor: similar to numpy nd array running on GPU
+- Variable: Node in computational graph, to store data and gradient
+
+Comparison to Tensorflow
+=========================
+1. Dynamic Computational garph whereas in tensorflow static
+2. can make use of standard python flow control
+3. support for python debuggers
+4. Dynamic inspection of variables and gradients
+
+Libraries for processing different type of data
+===============================================
+Image: OpenCV and Pillow
+Audio: Scipy and Librosa
+Text: Spacy and Cython

@@ -3,3 +3,12 @@ Why Deep Learning Now
 - Computing Power
 - Algorithms
 
+Types of NN
+- Perceptron: simplest and oldest model of neuron
+- Feed forward: primariyly used for supervised machine learning, All nodes are fully connected, used where data is neither sequenctial nor time dependent
+
+Python Libraries
+- Tensorflow
+- Keras
+- Theano
+- Pytorch

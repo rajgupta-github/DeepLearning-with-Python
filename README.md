@@ -14,7 +14,7 @@ ___
 - https://www.pico.net/kb/what-is-the-difference-between-same-and-valid-padding-in-tf-nn-max-pool-of-tensorflow
 - https://www.coursera.org/learn/convolutional-neural-networks/lecture/Ob1nR/computer-vision
 
-## Sequence Models
+## NLP
 - http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 - https://www.kaggle.com/tanulsingh077/deep-learning-for-nlp-zero-to-transformers-bert
 - https://www.coursera.org/learn/nlp-sequence-models/lecture/ehs0S/deep-rnns
@@ -55,8 +55,11 @@ ___
 - http://colah.github.io/
 
 ## Hyper-parameter Tuning
+- https://keras-team.github.io/keras-tuner/
 - https://blog.tensorflow.org/2020/01/hyperparameter-tuning-with-keras-tuner.html
 - https://medium.com/python-data/hyperparameter-tuning-tensorflow-2-models-with-keras-tuner-81f36f801040
 
 ## Data Augmentation
 - https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
+
+## Transfer Learning
