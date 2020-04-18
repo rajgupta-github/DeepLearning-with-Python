@@ -6,6 +6,10 @@ ___
 ## Neural Network
 - http://playground.tensorflow.org/
 - https://www.youtube.com/watch?v=UGkHV0Qm8xw
+- https://www.youtube.com/watch?v=BR9h47Jtqyw (friendly introduction to
+  Deep Learning and NN)
+- https://www.analyticsvidhya.com/blog/2020/01/comprehensive-learning-path-deep-learning-2020/  
+- https://www.analyticsvidhya.com/blog/2020/03/deep-learning-5-things-to-know/
 
 ## Computer Vision
 - https://setosa.io/ev/image-kernels/
@@ -13,18 +17,28 @@ ___
 - https://www.youtube.com/watch?v=Qwkf688-KoU
 - https://www.pico.net/kb/what-is-the-difference-between-same-and-valid-padding-in-tf-nn-max-pool-of-tensorflow
 - https://www.coursera.org/learn/convolutional-neural-networks/lecture/Ob1nR/computer-vision
+- https://www.youtube.com/watch?v=2-Ol7ZB0MmU (friendly introduction to
+  CNN)
 
 ## NLP
 - http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 - https://www.kaggle.com/tanulsingh077/deep-learning-for-nlp-zero-to-transformers-bert
 - https://www.coursera.org/learn/nlp-sequence-models/lecture/ehs0S/deep-rnns
 - https://machinelearningmastery.com/crash-course-deep-learning-natural-language-processing/
+- https://www.youtube.com/watch?v=UNmqTiOnRfg (friendly introduction to
+  RNN)
+- https://www.analyticsvidhya.com/blog/2020/01/learning-path-nlp-2020/?utm_source=blog&utm_medium=comprehensive-learning-path-deep-learning-2020  
+- NLP Full Course
+  (https://www.youtube.com/watch?v=n25JjoixM3I&list=PLLssT5z_DsK8BdawOVCCaTCO99Ya58ryR&index=2&t=0s)
+
 
 ## Courses Referred
 - https://naspers.udemy.com/course/tensorflow-2-practical/learn
 - https://naspers.udemy.com/course/tensorflow-2-practical-advanced/learn
 - https://www.coursera.org/specializations/deep-learning
 - https://www.udemy.com/course/tensorflow-2/learn
+- https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w/playlists
+  (Andrew Ng Deep Learning Coursera Specialization)
 
 ## Youtube Links
 - Google Cloud AI Developer Relations - AI Training

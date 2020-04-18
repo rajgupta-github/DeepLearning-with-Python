@@ -1,0 +1,8 @@
+Libraries used for Text data:
+- Spacy
+- NLTK
+- Cpython
+
+Libraries used for Audio data:
+- Scipy
+- Librosa

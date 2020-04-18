@@ -20,9 +20,3 @@ Comparison to Tensorflow
 2. can make use of standard python flow control
 3. support for python debuggers
 4. Dynamic inspection of variables and gradients
-
-Libraries for processing different type of data
-===============================================
-Image: OpenCV and Pillow
-Audio: Scipy and Librosa
-Text: Spacy and Cython
