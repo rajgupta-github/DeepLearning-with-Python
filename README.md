@@ -30,6 +30,8 @@ ___
 - https://www.analyticsvidhya.com/blog/2020/01/learning-path-nlp-2020/?utm_source=blog&utm_medium=comprehensive-learning-path-deep-learning-2020  
 - NLP Full Course
   (https://www.youtube.com/watch?v=n25JjoixM3I&list=PLLssT5z_DsK8BdawOVCCaTCO99Ya58ryR&index=2&t=0s)
+- https://web.stanford.edu/~jurafsky/slp3/  
+  
 
 
 ## Courses Referred
@@ -39,6 +41,10 @@ ___
 - https://www.udemy.com/course/tensorflow-2/learn
 - https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w/playlists
   (Andrew Ng Deep Learning Coursera Specialization)
+- https://naspers.udemy.com/course/nlp-natural-language-processing-with-python
+- https://towardsdatascience.com/deep-learning-course-notebooks-worth-2-000-are-now-open-source-7d6bc759ef47
+- https://course.fast.ai/videos/?lesson=1
+- https://academy.ineuron.ai/natural-language-processing.php
 
 ## Youtube Links
 - Google Cloud AI Developer Relations - AI Training

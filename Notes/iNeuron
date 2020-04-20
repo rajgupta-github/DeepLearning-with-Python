@@ -1,0 +1,122 @@
+DLCVNLP Course (sat,sun 8-10 PM and thur 8-10 PM doubt)
+Induction Class
+https://www.youtube.com/watch?v=04XDcgrX1lA
+
+https://www.youtube.com/watch?v=3NAYNjJAnSU
+Building basic Simple RNN model using Keras and TF 1.14 on Reuters dataset
+
+https://www.youtube.com/watch?v=4KkDsQNOwVc
+Building LSTM model on anna.txt
+
+
+Twitter Sentiment Analysis - NLP
+https://www.youtube.com/watch?v=TlF-ZdRf2mg
+https://www.youtube.com/watch?v=6aBFhvU42zg
+
+
+https://www.youtube.com/watch?v=3FEPFS4PLPs
+ML approach to convert our text into feature vector:
+- Bag of words
+- TF-IDF
+- Word2Vec
+- Doc2Vec
+
+https://www.youtube.com/watch?v=u0Uea3OMx0w
+NN basics
+
+https://www.youtube.com/watch?v=Fw7OmTl-pM8
+activation functions
+
+https://www.youtube.com/watch?v=EsvASOBo_Tg
+numpy
+
+https://www.youtube.com/watch?v=1SXRSdScwj8
+optimizer
+
+https://www.youtube.com/watch?v=yPpfxFTh0XQ
+LSTM basics
+
+Object Detection
+https://www.youtube.com/watch?v=dzYZJLPuW8k
+
+
+
+Interview Questions
+https://github.com/iNeuronai/interview-question-data-science-
+
+
+Course Structure:
+- NLP
+- Tensorflow
+- Pytorch
+- NeuralNetwork
+- CNN overview
+- CNN advanced part1
+- CNN advanced part2
+- Classification and Localization
+- Chatbot
+- Textblob
+- Spacy
+- StandfordNLP
+- word embedding
+- hidden markov model
+- RNN
+- Attention based model
+- Hardware Stup GPU
+- Transfer Learning in NLP
+- Mini NLP Project
+- Deployment and Perf tuning
+
+
+
+
+
+
+DL Basics
+
+
+Computer Vision
+
+
+CNN Architectures
+https://www.youtube.com/watch?v=SrhFB3o14yc
+Explained CNN basics via LeNet-5
+Rsearch paper
+http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf
+LeNet-5 (1998 Yann Lecun, leon, Yoshua Bengio, Patrick)
+AlexNet
+GoogleNet
+VGGNet
+ResNet
+SSD
+SSD Lite
+Faster R CNN
+GAN
+BERT
+
+
+
+- Tensorflow Object Detection TFOD
+- YOLO
+- Detectron-2
+- Detecto
+
+4 Computer Vision problems:
+- Semantic Segmentation
+- Classification+Localization
+- Object Detection
+- Instance Segmentation
+
+https://github.com/tensorflow/models/tree/v1.13.0/research/object_detection
+http://collabedit.com/ is used for teaching
+
+
+RNN
+Use cases of RNN
+- NLP
+- Machine Translation, Machine writing novels
+- Speech Recognition
+- Image Description Generation
+- Text Similarity Calculation
+- New application areas such as music recommendation, youtube recommendation, etc.
+
