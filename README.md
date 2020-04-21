@@ -83,3 +83,7 @@ ___
 - https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 
 ## Transfer Learning
+
+## Things to try
+- Streamlit.io
+- Dash plotly.com/dash
