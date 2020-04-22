@@ -82,4 +82,7 @@ vanishing and exploding gradient types of problems
 1*1 Convolution can decrease # of channels.
 Inception Module(GoogleNet) uses 1 by 1 conv
 
+Image Filtering tutorial
+https://lodev.org/cgtutor/filtering.html
+
 
