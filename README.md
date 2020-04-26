@@ -31,6 +31,9 @@ ___
 - NLP Full Course
   (https://www.youtube.com/watch?v=n25JjoixM3I&list=PLLssT5z_DsK8BdawOVCCaTCO99Ya58ryR&index=2&t=0s)
 - https://web.stanford.edu/~jurafsky/slp3/  
+- https://www.youtube.com/watch?v=cce8ntxP_XI&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9
+  fast.ai Code-First Intro to Natural Language Processing - playlist
+  
   
 
 

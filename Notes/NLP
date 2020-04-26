@@ -1,3 +1,142 @@
+NLP is a broad field, encompassing a variety of tasks, including:
+Part-of-speech tagging: identify if each word is a noun, verb, adjective, etc.)
+Named entity recognition NER): identify person names, organizations, locations, medical codes, time expressions, quantities, monetary values, etc)
+Text Classification
+Question answering
+Speech recognition
+Text-to-speech and Speech-to-text
+Topic modeling
+Semantics and Sentiment classification
+Language modeling
+Translation
+Text Generation
+ChatBots
+
+NLP Basics
+- Spacy
+- Tokenization
+- Stemming
+- Lemmatization
+- Stop Words
+
+
+Examples of Sequences
+- Time Series Data (Sales)
+- Sentences
+- Audio
+- Car Trajectories
+- Music
+
+NLP problems can be solved using both
+ - Machine Learning
+ - Deep Learning
+
+
+Types of Deep Learning
+==========================
+Supervised Deep Learning
+ - ANN used for Regression and Classification
+ - CNN used for Computer Vision
+ - RNN used for Time Series Analysis
+Usupervised Deep Learning
+ - Self Organizing Maps used for Feature Detection
+ - Deep Boltzmann Machines used for Recommnder Systems
+ - Auto Encoders used for Recommnder Systems
+
+Neural Networks and Human Brain
+================================
+Whole concept behind deep learning is to try to mimic the human brain and leverage the things that evolution has already developed for us.
+
+Human Brain got 3 parts
+- Cerebrum
+    - Temporal Lobe (Long Term Memory) linked to ANN, Weights represent Long-term memory
+    - Frontal Lobe - linked RNN for short term memory
+    - Ocipital Lobe - linked to CNN
+    - Parietal Lobe - Research going on for linking NN
+- Cerebellum
+- Brainstem
+
+Why Not Feedforward Networks
+=============================
+- I cannot predict the next word in a sentence if I use it
+
+
+Types of RNN
+=============
+One to One(Vec2Vec) -
+One to Many(Vec2Seq) - Music Generation, Image Captioning, Text Generation for e.g. saying hello
+Many to One(Seq2Vec) - Sentiment Analysis/Classification
+Many to Many(Seq2Seq) - (Input and Output are not same) Machine Translation
+Many to Many(Seq2Seq) - (Input and Output are same) Named Entity Recognition
+
+
+Applications
+- speech recognition,
+- language modeling,
+- translation,
+- image captioning
+
+RNN
+Use cases of RNN
+- NLP
+- Machine Translation, Machine writing novels
+- Speech Recognition
+- Image Description Generation
+- Text Similarity Calculation
+- New application areas such as music recommendation, youtube recommendation, etc.
+
+
+
+People Behind Recurrent Neural Networks
+========================================
+Sepp (Joseph) Hochreiter - vanishing gradient was first discovered in 1991
+Yoshua Bengio - vanishing gradient was again discovered in 1994
+
+
+An issue with RNN is that after a while network will begin to forget the first inputs as information is lost
+at each step going through the RNN. We need some sort of long memory for our networks
+
+Backpropagation through Time (BTT)
+===================================
+RNN uses back propagation algorithm , but it is applied for every timestamp. It is called BTT
+Problems with it are:
+- Vanishing Gradient Problem
+- Exploding Gradient Problem
+
+Solutions to the Problems
+=============================================
+In case of exploding gradient, you can:
+- stop backpropagating after a certain point, which is usually not optimal because not all of the weights get updated; truncated BTT
+- penalize or artificially reduce gradient;
+- put a maximum limit on a gradient, and clip the gradients when it goes higher then threshold
+- RMSprop to adjust learning rate
+
+In case of vanishing gradient, you can:
+- initialize weights so that the potential for vanishing gradient is minimized;
+- have Echo State Networks that are designed to solve the vanishing gradient problem;
+- have Long Short-Term Memory Networks (LSTMs).
+
+LSTM (Long Short Term Memory) Networks
+========================================
+- Repeating module in a RNN contains a single layer
+- Capable of learning long term dependencies
+- steps in LSTM
+ 1. forget gate layer - decision to throw away not required information from cell state by a sigmoid layer
+ 2. input gate layer/memory gate - add new information to the cell gate. this layer contains sigmoid and tanh layers
+ 3. output layer - combine above 2 steps and send the output
+    - sigmoid layer which decides what parts of the cell state we’re going to output
+    - we put the cell state through tanh (to push the values to be between −1 and 1) and multiply it by the output of the sigmoid gate, so that we only output the parts we decided to.
+
+LSTM with peepholes
+======================
+Cell state is also involved in each of the calculations
+
+
+GRU (Gated Recurrent Unit)
+===========================
+
+
+
 Libraries used for Text data:
 - Spacy
 - NLTK
@@ -6,3 +145,4 @@ Libraries used for Text data:
 Libraries used for Audio data:
 - Scipy
 - Librosa
+
