@@ -1,3 +1,5 @@
+NLP - Natural Language Processing
+
 NLP is a broad field, encompassing a variety of tasks, including:
 Part-of-speech tagging: identify if each word is a noun, verb, adjective, etc.)
 Named entity recognition NER): identify person names, organizations, locations, medical codes, time expressions, quantities, monetary values, etc)
@@ -12,12 +14,20 @@ Translation
 Text Generation
 ChatBots
 
-NLP Basics
-- Spacy
-- Tokenization
+
+
+NLP Basics/ Text Analytics
+https://www.youtube.com/watch?v=TlF-ZdRf2mg
+- Tokenization (Word Tokenizer/ Sentence Tokenizer)
+- POS (Parts of speech tagging) and chunking
+- NER (Named Entity Recogntition)
 - Stemming
 - Lemmatization
-- Stop Words
+- Stop Words, punctuations
+- Bag of Words
+- N-gram
+- skip grams
+- TF=IDF
 
 
 Examples of Sequences
@@ -140,7 +150,9 @@ GRU (Gated Recurrent Unit)
 Libraries used for Text data:
 - Spacy
 - NLTK
+- Textblob built on top of NLTK used for sentiment analysis
 - Cpython
+- Genism
 
 Libraries used for Audio data:
 - Scipy

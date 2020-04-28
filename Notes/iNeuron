@@ -102,7 +102,6 @@ GAN
 BERT
 
 
-frvb
 - Tensorflow Object Detection TFOD
 - YOLO
 - Detectron-2
