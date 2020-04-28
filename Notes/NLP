@@ -65,7 +65,7 @@ Types of RNN
 =============
 One to One(Vec2Vec) -
 One to Many(Vec2Seq) - Music Generation, Image Captioning, Text Generation for e.g. saying hello
-Many to One(Seq2Vec) - Sentiment Analysis/Classification
+Many to One(Seq2Vec) - Sentiment Analysis/Classification, Gender Recognition from speech
 Many to Many(Seq2Seq) - (Input and Output are not same) Machine Translation
 Many to Many(Seq2Seq) - (Input and Output are same) Named Entity Recognition
 

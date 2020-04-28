@@ -86,17 +86,10 @@ Course Structure:
 
 
 
-DL Basics
 
 
 Computer Vision
-
-
 CNN Architectures
-https://www.youtube.com/watch?v=SrhFB3o14yc
-Explained CNN basics via LeNet-5
-Rsearch paper
-http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf
 LeNet-5 (1998 Yann Lecun, leon, Yoshua Bengio, Patrick)
 AlexNet
 GoogleNet
@@ -115,14 +108,24 @@ frvb
 - Detectron-2
 - Detecto
 
-4 Computer Vision problems:
-- Semantic Segmentation
-- Classification+Localization
-- Object Detection
-- Instance Segmentation
 
 https://github.com/tensorflow/models/tree/v1.13.0/research/object_detection
 http://collabedit.com/ is used for teaching
+
+
+ResNet
+https://www.youtube.com/watch?v=imqN-JlGYb4
+
+VGGNet
+https://www.youtube.com/watch?v=x9HF1Vhk9Rw
+
+AlexNet
+youtube.com/watch?v=JOuHjUumVE8
+
+https://www.youtube.com/watch?v=SrhFB3o14yc
+LeNet-5 (Rsearch paper - http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)
+
+
 
 
 
