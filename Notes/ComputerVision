@@ -95,3 +95,31 @@ https://lodev.org/cgtutor/filtering.html
 Libraries used for Image data:
 - OpenCV
 - Pillow
+
+Data Augmentation
+https://keras.io/preprocessing/image/
+Transfer Learning
+https://www.tensorflow.org/tutorials/images/transfer_learning
+
+
+To avoid overfitting:
+
+1. Data Augmentation
+These are just a few of the options available (for more, see the Keras documentation.
+rotation_range is a value in degrees (0–180), a range within which to randomly rotate pictures.
+width_shift and height_shift are ranges (as a fraction of total width or height) within which to randomly translate pictures vertically or horizontally.
+shear_range is for randomly applying shearing transformations.
+zoom_range is for randomly zooming inside pictures.
+horizontal_flip is for randomly flipping half of the images horizontally. This is relevant when there are no assumptions of horizontal assymmetry (e.g. real-world pictures).
+fill_mode is the strategy used for filling in newly created pixels, which can appear after a rotation or a width/height shift.
+
+2. Dropouts
+The idea behind Dropouts is that they remove a random number of neurons in your neural network.
+This works very well for two reasons:
+The first is that neighboring neurons often end up with similar weights, which can lead to overfitting,
+so dropping some out at random can remove this.
+The second is that often a neuron can over-weigh the input from a neuron in the previous layer,
+and can over specialize as a result. Thus, dropping out can break the neural network out of this potential
+bad habit!
+Andrew Ng video on dropout
+https://www.youtube.com/watch?v=ARq74QuavAo
