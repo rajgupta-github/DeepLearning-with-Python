@@ -152,9 +152,21 @@ Libraries used for Text data:
 - NLTK
 - Textblob built on top of NLTK used for sentiment analysis
 - Cpython
-- Genism
+- Genism built for topic modeling
 
 Libraries used for Audio data:
 - Scipy
 - Librosa
+
+
+The Beginner’s Guide to BERT: Google’s Robust NLP Algorithm
+https://sdsclub.com/bert-google-nlp-algorithm/?utm_content=educational&utm_campaign=2020-04-30&utm_source=email-sendgrid&utm_term=27129696&utm_medium=2432816
+What is NLP?
+The Challenging Aspects of NLP for Deep Learning
+Recent NLP Developments
+What is BERT?
+What is Transformer?
+2019 – The Year of BERT
+What’s Next? Post-BERT
+
 

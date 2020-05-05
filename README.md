@@ -10,6 +10,10 @@ ___
   Deep Learning and NN)
 - https://www.analyticsvidhya.com/blog/2020/01/comprehensive-learning-path-deep-learning-2020/  
 - https://www.analyticsvidhya.com/blog/2020/03/deep-learning-5-things-to-know/
+- https://github.com/lutzroeder/netron (Netron is a viewer for neural
+  network, deep learning and machine learning models)
+
+
 
 ## Computer Vision
 - https://setosa.io/ev/image-kernels/

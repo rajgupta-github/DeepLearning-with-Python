@@ -1,0 +1,52 @@
+https://sdsclub.com/all-you-need-to-know-tensorflow2/
+What TensorFlow is and how it works
+The benefits of using TensorFlow
+How TensorFlow 2.0 has improved on the original platform
+How TensorFlow 2.0 compares to PyTorch 1.3
+
+
+TensorFlow is a platform that can be used to build AI and machine learning models
+TensorFlow has made it much easier to create and implement machine learning models
+It uses Python for a nice, user-friendly frontend and C++ for the high-performance computations.
+The list of TensorFlow applications is vast. Here are just a few of them:
+
+Image recognition
+Handwritten digit classification
+Word embedding
+Natural Language Processing (NLP)
+Recurrent Neural Networks (RNN)
+Sequence-to-sequence models
+Object detection
+Image semantic segmentation
+Partial Differential Equation (PDE) – based simulations
+
+Each processing node in a dataflow graph is a logical or mathematical operator, and the connections between nodes
+is known as a multidimensional data array, or tensor – hence TensorFlow
+
+Benefit of TensorFlow is “abstraction”
+======================================
+
+What’s New in TensorFlow 2.0
+=============================
+1. Eager Execution
+There’s an “eager execution mode” that allows users to analyze and modify each graph operation node individually,
+as opposed to modeling the entire dataflow graph as one object and analyzing it as one
+
+2. Default Keras API
+Keras is an open-source neural-network library that is simple to use.
+The syntax of Keras is very much like Python as it is intuitive and uncomplicated.
+The inclusion of Keras as a default API means it is now easier than ever to build an artificial neural network model in TensorFlow 2.0.
+
+3. TensorBoard
+TensorBoard allows you to track the progress of networks and visualize metrics as they change over time
+
+4. Distributed Strategy
+Distributed strategy allows you to build your model once,
+then decide how you want to use it over multiple GPUs or even TPUs (Tensor Processing Unit).
+
+
+TensorFlow 2.0 vs. PyTorch 1.3
+==============================
+1. Dynamic vs. Static Graphs
+2. Training and Output Visualization
+3. Deployment
