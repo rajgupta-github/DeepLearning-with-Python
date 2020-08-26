@@ -1,0 +1,21 @@
+How to download INSAID session videos?
+
+Step1: Go to the sessions that you want to download..this case
+	   https://programs.insaid.co/courses/take/machine-learning-foundation-12th-May/lessons/7610731-recording-class-12-22nd-june
+
+
+Step 2: Right click on the videos.Click copy link and thumbail. You will get something like this..
+		<p><a href="https://programs.insaid.co/courses/take/machine-learning-foundation-12th-May/lessons/7610731-recording-class-12-22nd-june?wvideo=iwij2tjb4b"><img src="https://embed-ssl.wistia.com/deliveries/42072ddce7cd26f358ab28a48dff8c9a8502b340.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=54bbffe0" width="400" height="225" style="width: 400px; height: 225px;"></a></p><p><a href="https://programs.insaid.co/courses/take/machine-learning-foundation-12th-May/lessons/7610731-recording-class-12-22nd-june?wvideo=iwij2tjb4b">International School of AI &amp; Data Science</a></p>
+
+
+Step 3: From the data you got in step 2..extract the videoid ..in this case wvideo=iwij2tjb4b
+
+Step 4: Open a browser and launch this url  view-source:https://fast.wistia.net/embed/iframe/<videoID> In this case the url would be view-source:https://fast.wistia.net/embed/iframe/iwij2tjb4b
+
+Step 5. Right click and search ".bin". Get the first search result..in this case..  https://embed-ssl.wistia.com/deliveries/a6cef9d410520c72f873a0a5bcac9be3.bin
+
+Step 6: Put this url into browser..https://embed-ssl.wistia.com/deliveries/a6cef9d410520c72f873a0a5bcac9be3.bin then right click and Save US
+
+Step 7: Within 2 second .bin file will be downloaded.
+
+Step 8: Rename .bin to .mp4

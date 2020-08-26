@@ -6,13 +6,26 @@ ___
 ## Neural Network
 - http://playground.tensorflow.org/
 - https://www.youtube.com/watch?v=UGkHV0Qm8xw
-- https://www.youtube.com/watch?v=BR9h47Jtqyw (friendly introduction to
+- https://www.youtu ## Neural Network
+- http://playground.tensorflow.org/
+- https://www.youtube.com/watch?v=UGkHV0Qm8xw
+- https://www.youtube.com/watch?v=BR9h47Jtqyw ( friendly introduction to
   Deep Learning and NN)
-- https://www.analyticsvidhya.com/blog/2020/01/comprehensive-learning-path-deep-learning-2020/  
+- https://www.analyticsvidhya.com/blog/2020/01/comprehensive-learning-path-deep-learning-2020/
 - https://www.analyticsvidhya.com/blog/2020/03/deep-learning-5-things-to-know/
 - https://github.com/lutzroeder/netron (Netron is a viewer for neural
   network, deep learning and machine learning models)
-
+- https://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html
+- https://eng.uber.com/introducing-ludwig/be.com/watch?v=BR9h47Jtqyw (friendly introduction to
+  Deep Learning and NN)
+- https://www.analyticsvidhya.com/blog/2020/01/comprehensive-learning-path-deep-learning-2020/
+- https://www.analyticsvidhya.com/blog/2020/03/deep-learning-5-things-to-know/
+- https://github.com/lutzroeder/netron (Netron is a viewer for neural
+  network, deep learning and machine learning models)
+- https://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html
+- http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/
+- https://eng.uber.com/introducing-ludwig/
+- https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/
 
 
 ## Computer Vision
@@ -23,6 +36,12 @@ ___
 - https://www.coursera.org/learn/convolutional-neural-networks/lecture/Ob1nR/computer-vision
 - https://www.youtube.com/watch?v=2-Ol7ZB0MmU (friendly introduction to
   CNN)
+- https://poloclub.github.io/cnn-explainer/
+- https://poseshield.withgoogle.com/
+- https://tensorspace.org/
+- https://medium.com/deep-ai/training-cnn-on-azure-with-keras-9da668d7b5a9
+- https://www.youtube.com/watch?v=AgkfIQ4IGaM (Deep Visualization
+  Toolbox)
 
 ## NLP
 - http://colah.github.io/posts/2015-08-Understanding-LSTMs/
@@ -37,7 +56,7 @@ ___
 - https://web.stanford.edu/~jurafsky/slp3/  
 - https://www.youtube.com/watch?v=cce8ntxP_XI&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9
   fast.ai Code-First Intro to Natural Language Processing - playlist
-  
+- http://corenlp.run/  
   
 
 
@@ -97,3 +116,6 @@ ___
 
 ## Cross-entropy loss
 - https://gombru.github.io/2018/05/23/cross_entropy_loss/
+
+## Free Online AI Courses
+- https://laconicml.com/free-artificial-intelligence-courses/

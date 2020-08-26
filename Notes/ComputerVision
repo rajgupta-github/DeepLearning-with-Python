@@ -26,8 +26,8 @@ Problems:
 
 Padding
 =========
-Valid - No Padding
-Same - Paddding so that Output Size and Input size are same
+Valid - No Padding (p=0)
+Same - Paddding so that Output Size and Input size are same (p=(no of filters-1)/2)
 
 
 Output Size formula of Convolution Layer:
@@ -37,6 +37,9 @@ f * f  filter
 padding p
 stride s
 Floor [ (n+2p-f)/s + 1 ] * Floor [ (n+2p-f)/s + 1 ]
+
+for Padding Valid , p=0
+for Padding SAME , p = f-1/2
 
 No of paramteres in one layer:
 ===============================
@@ -101,6 +104,8 @@ https://keras.io/preprocessing/image/
 Transfer Learning
 https://www.tensorflow.org/tutorials/images/transfer_learning
 
+Rock-Paper-Scissors Dataset from Laurence
+http://www.laurencemoroney.com/rock-paper-scissors-dataset/
 
 To avoid overfitting:
 

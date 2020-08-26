@@ -1,3 +1,18 @@
+install tensorflow using terminal
+==================================
+pip --version
+python3 --version
+pip install --user -U virtualenv
+set virtualenv path in bash_profile
+virtualenv TF2env
+source TF2env/bin/activate
+pip install tensorflow==2.2.0
+python3
+import tensorflow as tf
+tf.__version__
+
+
+
 https://sdsclub.com/all-you-need-to-know-tensorflow2/
 What TensorFlow is and how it works
 The benefits of using TensorFlow

@@ -1,0 +1,11 @@
+Research Paper
+http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf
+
+Input size: 32 * 32
+Conv1: kernel 5*5, 6 kernels , output=28 * 28 * 6  ((32-5 + 1)= 28)
+AveragePooling:2 * 2, stride=2, output = 14 * 14 * 6 ((28-2)/2+1= 14)
+Conv2: kernel 5*5, 16 kernels , output= 10 * 10 * 16  ((14 - 5)/1 + 1)= 10)
+AveragePooling:2 * 2, stride=2, output = 5 * 5 * 16 ((10-2)/2+1= 5)
+Conv3: kernel 5*5, 120 kernels , output= 1 * 1 * 120  ((5 - 5)/1 + 1)= 1)
+Flatten (120) -> FC(84 neurons in hidden layer) -> Output using Softmax (10 labels)
+

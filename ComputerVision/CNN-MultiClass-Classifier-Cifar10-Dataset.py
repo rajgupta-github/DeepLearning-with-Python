@@ -32,12 +32,13 @@ model.add(tf.keras.layers.Conv2D(filters=64, kernel_size=3, padding="same", acti
 model.add(tf.keras.layers.Conv2D(filters=64, kernel_size=3, padding="same", activation="relu"))
 model.add(tf.keras.layers.MaxPool2D(pool_size=2, strides=2, padding='valid'))
 model.add(tf.keras.layers.Flatten())
+model.add(tf.keras.layers.Dropout())
 model.add(tf.keras.layers.Dense(units=128, activation='relu'))
 model.add(tf.keras.layers.Dense(units=10, activation='softmax'))
 print("Model Summary:", model.summary())
 
 # Compiling the model
-model.compile(loss="sparse_categorical_crossentropy", optimizer="Adam", metrics=["sparse_categorical_accuracy"])
+model.compile(loss="sparse_categorical_crossentropy", optimizer=tf.keras.optimizers.Adam, metrics=["sparse_categorical_accuracy"])
 
 # training the model
 model.fit(X_train, y_train, epochs=5)

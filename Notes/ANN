@@ -3,12 +3,24 @@ Why Deep Learning Now
 - Computing Power
 - Algorithms
 
+Fundamentals DL relies on below theorems
+Kolmogorov's Theorem
+Cover's theorem
+Universal approximation theorem
+
 Types of NN
 - Perceptron: simplest and oldest model of neuron
-- Feed forward: primariyly used for supervised machine learning, All nodes are fully connected, used where data is neither sequenctial nor time dependent
+- Feed forward NN: primarily used for supervised machine learning, All nodes are fully connected, used where data is neither sequential nor time dependent
 
 Python Libraries
-- Tensorflow
-- Keras
-- Theano
+=================
+- Tensorflow2 (also includes keras now)
 - Pytorch
+- Theano
+
+
+No of Parameters
+=================
+n1 - no of neurons in layer 1
+n2 - no of neurons in layer 2
+total parameters = n1*n2 + n2 = n2(n1+1)
